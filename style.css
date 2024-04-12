@@ -1,0 +1,60 @@
+body {
+    background-image: url("bg.webp");
+    background-size: contain;
+    font-family: Inter;
+}
+
+header {
+    /* height: 100.103px; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    width: 100%;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+
+.grid-item .card{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.text-gold{
+    color: #FE8602 !important;
+}
+
+.card-main-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card-title{
+    color: #FE8602;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

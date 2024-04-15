@@ -25,6 +25,9 @@ header {
     flex-shrink: 0;
     page-break-inside:avoid;
 }
+.grid-item .card-img {
+    aspect-ratio: 1;
+}
 .grid-item .card-img img{
     aspect-ratio: 1;
 }
@@ -33,6 +36,7 @@ header {
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
+    height: 100%;
 }
 .text-gold{
     color: #FE8602 !important;

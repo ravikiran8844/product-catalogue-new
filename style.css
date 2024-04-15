@@ -25,7 +25,9 @@ header {
     flex-shrink: 0;
     page-break-inside:avoid;
 }
-
+.grid-item .card-img img{
+    aspect-ratio: 1;
+}
 
 .grid-item .card{
     border: 1px solid #fff;
